@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <Box width="400px">
+    <Box width="400px" sx={{ width: { xl: '14488px' } }} m="auto">
       <Navbar />
       <Outlet />
       <Footer />
