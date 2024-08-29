@@ -1,10 +1,16 @@
+import { Box } from '@mui/material';
 import './App.css';
+import { Outlet } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <>
-      <h1>Hello World</h1>
-    </>
+    <Box width="400px">
+      <Navbar />
+      <Outlet />
+      <Footer />
+    </Box>
   );
 }
 
